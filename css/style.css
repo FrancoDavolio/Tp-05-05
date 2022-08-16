@@ -1,0 +1,36 @@
+*{
+    transition: all 0.3s;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: 300%;
+    font-size: 300%;
+    font-family: calibri;
+    color: white;
+    background: linear-gradient(rgb(52, 187, 214),rgb(10, 86, 179));
+}
+
+.marco{
+    border-radius: 30px;
+    background: #333;
+    padding: 15px;
+}
+
+.tiempo{
+    padding-left: 23px;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    color: white;
+    display: inline-block;
+    font-size: 60%;
+    padding: 20px;
+}
